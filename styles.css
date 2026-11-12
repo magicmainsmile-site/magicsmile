@@ -313,6 +313,7 @@ em {
 .footer nav a, .footer__top > div > a { display: block; margin-bottom: 14px; font-size: 17px; font-weight: 500; }
 .footer a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 32px; margin-top: clamp(40px, 5vw, 64px); color: var(--ink-60); font-size: 15px; }
+.footer__bottom .footer__credit { display: inline; margin: 0; color: var(--ink); font-size: inherit; text-decoration: underline; text-underline-offset: 3px; }
 
 .mobile-bar { display: none; }
 
