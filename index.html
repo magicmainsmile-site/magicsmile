@@ -5,11 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Magic Smile — стоматология полного цикла в Ташкенте</title>
   <meta name="description" content="Имплантация, All-on-4 и All-on-6, циркониевые коронки, виниры, ортодонтия и лечение зубов. Magic Smile, Ташкент, ул. Махтумкули, 114. Пн–Сб 10:00–22:00.">
+  <link rel="canonical" href="https://magicsmile.vercel.app/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <meta property="og:site_name" content="Magic Smile">
+  <meta property="og:url" content="https://magicsmile.vercel.app/">
   <meta property="og:title" content="Magic Smile — стоматология полного цикла в Ташкенте">
   <meta property="og:description" content="Имплантация, ортопедия, эстетика, терапия и ортодонтия в одной клинике.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ru_RU">
-  <meta property="og:image" content="images/hero.webp">
+  <meta property="og:image" content="https://magicsmile.vercel.app/images/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Холл клиники Magic Smile в Ташкенте">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Magic Smile — стоматология полного цикла в Ташкенте">
+  <meta name="twitter:description" content="Имплантация, ортопедия, эстетика, терапия и ортодонтия в одной клинике.">
+  <meta name="twitter:image" content="https://magicsmile.vercel.app/images/og.jpg">
   <meta name="theme-color" content="#222326">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,20 +35,145 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Dentist",
-    "name": "Magic Smile",
-    "telephone": "+998992439292",
-    "openingHours": "Mo-Sa 10:00-22:00",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "ул. Махтумкули, 114",
-      "addressLocality": "Ташкент",
-      "addressCountry": "UZ"
-    },
-    "founder": { "@type": "Person", "name": "Миразиз Таджиев" },
-    "sameAs": [
-      "https://www.instagram.com/magicsmile_clinic_/",
-      "https://t.me/magic_smilee"
+    "@graph": [
+      {
+        "@type": "Dentist",
+        "@id": "https://magicsmile.vercel.app/#clinic",
+        "name": "Magic Smile",
+        "description": "Стоматология полного цикла в Ташкенте: имплантация, All-on-4 и All-on-6, циркониевые коронки, виниры, реставрация, хирургия, ортодонтия, чистка и отбеливание.",
+        "url": "https://magicsmile.vercel.app/",
+        "logo": "https://magicsmile.vercel.app/images/icon-512.png",
+        "image": [
+          "https://magicsmile.vercel.app/images/og.jpg",
+          "https://magicsmile.vercel.app/images/facade.webp",
+          "https://magicsmile.vercel.app/images/hero.webp"
+        ],
+        "telephone": [
+          "+998992439292",
+          "+998988091193",
+          "+998998157846"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ул. Махтумкули, 114",
+          "addressLocality": "Ташкент",
+          "addressRegion": "Яшнабадский район",
+          "addressCountry": "UZ"
+        },
+        "hasMap": "https://yandex.uz/maps/org/magic_smile/64274086457/",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "10:00",
+            "closes": "22:00"
+          }
+        ],
+        "areaServed": {
+          "@type": "City",
+          "name": "Ташкент"
+        },
+        "medicalSpecialty": "https://schema.org/Dentistry",
+        "availableService": [
+          {
+            "@type": "MedicalProcedure",
+            "name": "Имплантация зубов"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "All-on-4 и All-on-6"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Циркониевые коронки"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Керамические виниры"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Реставрация зубов"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Хирургия и удаление зубов"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Брекеты"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Профессиональная чистка зубов"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Отбеливание зубов"
+          }
+        ],
+        "founder": {
+          "@id": "https://magicsmile.vercel.app/#miraziz"
+        },
+        "employee": [
+          {
+            "@id": "https://magicsmile.vercel.app/#miraziz"
+          },
+          {
+            "@id": "https://magicsmile.vercel.app/#jamshid"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/magicsmile_clinic_/",
+          "https://www.instagram.com/tadjiev_aziz_sadikovich/",
+          "https://www.instagram.com/magic_smile_dental_school/",
+          "https://t.me/magic_smilee",
+          "https://yandex.uz/maps/org/magic_smile/64274086457/"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://magicsmile.vercel.app/#miraziz",
+        "name": "Миразиз Таджиев",
+        "jobTitle": "Основатель клиники, хирург-имплантолог, ортопед",
+        "image": "https://magicsmile.vercel.app/images/doctor-miraziz.webp",
+        "worksFor": {
+          "@id": "https://magicsmile.vercel.app/#clinic"
+        },
+        "sameAs": [
+          "https://www.instagram.com/tadjiev_aziz_sadikovich/"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://magicsmile.vercel.app/#jamshid",
+        "name": "Джамшид Абдазимов",
+        "jobTitle": "Врач-стоматолог, имплантолог",
+        "image": "https://magicsmile.vercel.app/images/doctor-jamshid.webp",
+        "worksFor": {
+          "@id": "https://magicsmile.vercel.app/#clinic"
+        },
+        "sameAs": [
+          "https://www.instagram.com/jamshiddental/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://magicsmile.vercel.app/#website",
+        "url": "https://magicsmile.vercel.app/",
+        "name": "Magic Smile",
+        "inLanguage": "ru",
+        "publisher": {
+          "@id": "https://magicsmile.vercel.app/#clinic"
+        }
+      }
     ]
   }
   </script>
@@ -122,63 +262,63 @@
         <div class="cards-pin" data-card-pin>
         <ol class="cards">
           <li class="card"><a href="https://t.me/magic_smilee" target="_blank" rel="noopener">
-            <img src="images/svc-implant.webp" alt="" width="520" height="520" loading="lazy">
+            <img src="images/svc-implant.webp" alt="Имплантация зубов в клинике Magic Smile, Ташкент" width="520" height="520" loading="lazy">
             <span class="card__plus" aria-hidden="true">( + )</span>
             <span class="card__book" aria-hidden="true">Записаться</span>
             <span class="card__no">(01)</span>
             <h3>Имплантация <em>зубов</em></h3>
           </a></li>
           <li class="card"><a href="https://t.me/magic_smilee" target="_blank" rel="noopener">
-            <img src="images/svc-allon.webp" alt="" width="568" height="568" loading="lazy">
+            <img src="images/svc-allon.webp" alt="Результат протезирования All-on-6 на имплантах в Magic Smile" width="568" height="568" loading="lazy">
             <span class="card__plus" aria-hidden="true">( + )</span>
             <span class="card__book" aria-hidden="true">Записаться</span>
             <span class="card__no">(02)</span>
             <h3>All-on-4 и All-on-6 <em>на имплантах</em></h3>
           </a></li>
           <li class="card"><a href="https://t.me/magic_smilee" target="_blank" rel="noopener">
-            <img src="images/svc-crown.webp" alt="" width="600" height="600" loading="lazy">
+            <img src="images/svc-crown.webp" alt="Циркониевые коронки, работа клиники Magic Smile" width="600" height="600" loading="lazy">
             <span class="card__plus" aria-hidden="true">( + )</span>
             <span class="card__book" aria-hidden="true">Записаться</span>
             <span class="card__no">(03)</span>
             <h3>Циркониевые <em>коронки</em></h3>
           </a></li>
           <li class="card"><a href="https://t.me/magic_smilee" target="_blank" rel="noopener">
-            <img src="images/svc-veneer.webp" alt="" width="568" height="568" loading="lazy">
+            <img src="images/svc-veneer.webp" alt="Керамические виниры, работа клиники Magic Smile" width="568" height="568" loading="lazy">
             <span class="card__plus" aria-hidden="true">( + )</span>
             <span class="card__book" aria-hidden="true">Записаться</span>
             <span class="card__no">(04)</span>
             <h3>Керамические <em>виниры</em></h3>
           </a></li>
           <li class="card"><a href="https://t.me/magic_smilee" target="_blank" rel="noopener">
-            <img src="images/svc-restoration.webp" alt="" width="600" height="600" loading="lazy">
+            <img src="images/svc-restoration.webp" alt="Реставрация зубов в клинике Magic Smile" width="600" height="600" loading="lazy">
             <span class="card__plus" aria-hidden="true">( + )</span>
             <span class="card__book" aria-hidden="true">Записаться</span>
             <span class="card__no">(05)</span>
             <h3>Реставрация <em>зубов</em></h3>
           </a></li>
           <li class="card"><a href="https://t.me/magic_smilee" target="_blank" rel="noopener">
-            <img src="images/svc-surgery.webp" alt="" width="600" height="600" loading="lazy">
+            <img src="images/svc-surgery.webp" alt="Хирургическая стоматология в Magic Smile, Ташкент" width="600" height="600" loading="lazy">
             <span class="card__plus" aria-hidden="true">( + )</span>
             <span class="card__book" aria-hidden="true">Записаться</span>
             <span class="card__no">(06)</span>
             <h3>Хирургия <em>и удаление зубов</em></h3>
           </a></li>
           <li class="card"><a href="https://t.me/magic_smilee" target="_blank" rel="noopener">
-            <img src="images/svc-ortho.webp" alt="" width="600" height="600" loading="lazy">
+            <img src="images/svc-ortho.webp" alt="Установка брекетов в клинике Magic Smile" width="600" height="600" loading="lazy">
             <span class="card__plus" aria-hidden="true">( + )</span>
             <span class="card__book" aria-hidden="true">Записаться</span>
             <span class="card__no">(07)</span>
             <h3>Брекеты <em>в рассрочку</em></h3>
           </a></li>
           <li class="card"><a href="https://t.me/magic_smilee" target="_blank" rel="noopener">
-            <img src="images/svc-clean.webp" alt="" width="600" height="600" loading="lazy">
+            <img src="images/svc-clean.webp" alt="Профессиональная чистка зубов в Magic Smile" width="600" height="600" loading="lazy">
             <span class="card__plus" aria-hidden="true">( + )</span>
             <span class="card__book" aria-hidden="true">Записаться</span>
             <span class="card__no">(08)</span>
             <h3>Профессиональная <em>чистка</em></h3>
           </a></li>
           <li class="card"><a href="https://t.me/magic_smilee" target="_blank" rel="noopener">
-            <img src="images/svc-whitening.webp" alt="" width="600" height="600" loading="lazy">
+            <img src="images/svc-whitening.webp" alt="Отбеливание зубов: результат в клинике Magic Smile" width="600" height="600" loading="lazy">
             <span class="card__plus" aria-hidden="true">( + )</span>
             <span class="card__book" aria-hidden="true">Записаться</span>
             <span class="card__no">(09)</span>
